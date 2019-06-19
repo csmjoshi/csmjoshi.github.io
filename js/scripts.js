@@ -1,3 +1,21 @@
+$.firefly({
+    total: 100,
+    ofTop: 0,
+    ofLeft: 0,
+    on: 'document.body',
+    twinkle: 0.2,
+    minPixel: 1,
+    maxPixel: 2,
+    color: '#fff',
+    namespace: 'jqueryFireFly',
+    zIndex: Math.ceil(Math.random() * 20) - 1,
+    borderRadius: '50%',
+    _paused: false ,
+});
+
+
+
+
 let hours = new Date().getHours(); 
 let string = "Good Morning!";
 if(hours > 12 && hours < 18) {
@@ -5,6 +23,7 @@ if(hours > 12 && hours < 18) {
 } else if(hours > 17 && hours < 24) {
     string = "Good Evening!";
 }
+
 
 let greetings  = [
     "It is a pleasure to meet you!",
@@ -15,10 +34,12 @@ let greetings  = [
    "How do you do?",
 ];
 
-
 setTimeout(()=>{
     $("p.text").addClass("shake");
 }, 1000);
+
+
+
 
 $("p.text").typeIt({
     strings: [greetings[Math.floor(Math.random() * 6)],
