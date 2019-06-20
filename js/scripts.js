@@ -37,8 +37,6 @@ $("p.text").typeIt({
     loop: false,
 });
 
-
-
 $.firefly({
     total: 20,
     ofTop: 0,
@@ -47,7 +45,7 @@ $.firefly({
     twinkle: 0.2,
     minPixel: 1,
     maxPixel: 2,
-    color: '#fff',
+    color: '#FDA50F',
     namespace: 'jqueryFireFly',
     zIndex: Math.ceil(Math.random() * 20) - 1,
     borderRadius: '50%',

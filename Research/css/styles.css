@@ -1,0 +1,79 @@
+#navimg {
+    height: 25px;
+    display: inline-block; 
+    padding: 0px; 
+}
+
+body {
+    margin: 0;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    margin-left: 10%; 
+    margin-right: 10%; 
+    padding: 0;
+    overflow: hidden;
+    padding-bottom: 0px;
+    max-width: 100%; 
+    object-fit: contain;
+    background-color: firebrick;
+}
+
+
+ul.topnav li {
+    float: left;
+}
+
+ul.topnav li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: black; 
+    font-weight: bold; 
+    font-family: 'Nunito', sans-serif;       
+
+}
+
+ul.topnav li a:hover {  
+    background-color: crimson;
+    text-decoration: underline; 
+}
+
+ul.topnav li.right {
+    float: right;
+}
+
+div#profile {
+    margin-left: 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 30%;
+    margin: auto;
+    font-family: arial;
+    text-align: center; 
+}
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+
+
+
+

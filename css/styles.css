@@ -19,7 +19,6 @@
         font-size: 35px; 
     }
 
-
     .shake {
         animation: shake 0.5s; 
     }
@@ -33,7 +32,6 @@
     
     body {
         margin: 0;
-        background-color: black;
         position: relative; 
         background-size: cover; 
         background-repeat: no-repeat; 
@@ -71,6 +69,7 @@
 
     ul.topnav li a:hover {  
         background-color: #0F9D58;
+        text-decoration: underline; 
     }
 
 
@@ -85,13 +84,13 @@
     }
 
     .footer {
-        position: fixed;
         left: 0;
         bottom: 0;
         width: 100%;
         color: #E0E0E5;
         text-align: center;
         font-size: 12px;
+        position: fixed; 
     }
 
     @keyframes shake {
