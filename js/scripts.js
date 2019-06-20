@@ -1,21 +1,3 @@
-$.firefly({
-    total: 100,
-    ofTop: 0,
-    ofLeft: 0,
-    on: 'document.body',
-    twinkle: 0.2,
-    minPixel: 1,
-    maxPixel: 2,
-    color: '#fff',
-    namespace: 'jqueryFireFly',
-    zIndex: Math.ceil(Math.random() * 20) - 1,
-    borderRadius: '50%',
-    _paused: false ,
-});
-
-
-
-
 let hours = new Date().getHours(); 
 let string = "Good Morning!";
 if(hours > 12 && hours < 18) {
@@ -39,8 +21,6 @@ setTimeout(()=>{
 }, 1000);
 
 
-
-
 $("p.text").typeIt({
     strings: [greetings[Math.floor(Math.random() * 6)],
                 "I am a freshman at the University Of Washington.",
@@ -55,4 +35,21 @@ $("p.text").typeIt({
     startDelay: 1500,
     waitUntilVisible: true,
     loop: false,
+});
+
+
+
+$.firefly({
+    total: 20,
+    ofTop: 0,
+    ofLeft: 0,
+    on: 'document.body',
+    twinkle: 0.2,
+    minPixel: 1,
+    maxPixel: 2,
+    color: '#fff',
+    namespace: 'jqueryFireFly',
+    zIndex: Math.ceil(Math.random() * 20) - 1,
+    borderRadius: '50%',
+    _paused: false ,
 });
