@@ -100,6 +100,7 @@ h5 {
     margin: 10px;
     padding: 5px;
     background: #26bd30;
+    border-radius: 25%;
 }
 @media only screen and (max-width: 650px) {
     .social {
